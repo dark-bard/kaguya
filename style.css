@@ -116,7 +116,7 @@
 .timeline-container {
   width: 100%;
   position: relative;
-  padding: 380px 0;
+  padding: 80px 0;
   transition: 0.3s ease 0s;
   background-attachment: fixed;
   background-size: cover;
@@ -162,4 +162,20 @@
   color: #999;
   display: inline-block;
   font-family: Cardo;
+}
+.source{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 3px 8px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.source-text{
+  position: absolute;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  padding-top: 8px;
+  font-style: italic;
 }
